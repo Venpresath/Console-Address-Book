@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <link rel="stylesheet" type="text/css" href="GroupLab.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+        <div id=upper>
+            <h1>My Contacts</h1>
+            <form>
+                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="text" id="email" name="email" placeholder="Email">
+                <input type="text" id="phone" name="phone" placeholder="Phone">
+                <select id="relation" name="relation">
+                    <option value="family">Family</option>
+                    <option value="friend">Friend</option>
+                    <option value="random">Random</option>
+                    <option value="acquaintance">Acquaintance</option>
+                </select>
+                <input id="submit" type="submit">
+            </form>
+        </div>
+        <div id="lower">
+            <div class="card">
+                <p>Name: <span id="contactName">Megan</span></p>
+                <p>Email: <span id="contactEmail">Megan@gmail.com</span></p>
+                <p>Phone: <span id="contactPhone">8093091810</span></p>
+                <p>Relation: <span id="contactRelation">friend</span></p>
+                <i class="fas fa-trash-alt"></i>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="contacts2.js"></script>
+</body>
+</html>

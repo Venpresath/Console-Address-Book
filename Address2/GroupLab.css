@@ -1,0 +1,73 @@
+body {
+	font-family: 'Monoton', cursive;
+	margin: 0;
+	background-image: url("back.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container, #lower, #upper, form {
+	display: flex;
+}
+.container, #upper, form {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#upper {
+	color: #fff;
+	background-color: rgba(0,0,0,0.75);
+	width: 55%;
+	border: 2px;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 15px;
+}
+form {
+	width: 100%;
+	justify-content: space-around;
+}
+input, select, option #relation {
+	width: 90%;
+	padding: 10px 0 10px 15px;
+	margin: 15px 0;
+	border-radius: 5px;
+	border:none;
+	background-color: #fff;
+}
+#relation, #submit {
+	width: 92%;
+}
+
+#lower {
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.card {
+	color: #fff;
+	font-family: arial;
+	width: 20%;
+	background-color: rgba(0,0,0,0.75);
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	padding: 5px 5px 5px 10px;
+
+}
+.trash {
+	background-color: #fff;
+	position: relative;
+}
+i {
+	color: #000;
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+	
+}
